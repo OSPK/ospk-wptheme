@@ -14,7 +14,8 @@ get_header(); ?>
             <div class="container">
                 <h1><?php echo get_bloginfo ( 'name' );?></h1>
                 <h2><?php echo get_bloginfo ( 'description' );  ?></h2>
-                <p><a class="btn btn-primary btn-lg">Start a Project <i class="icon-arrow-right"></i></a></p>
+                <p><a class="btn btn-primary btn-lg">Find a Project <i class="icon-arrow-right"></i></a></p>
+
             </div><!--./container-->
         </div><!--/.jumbotron -->
 
@@ -38,6 +39,8 @@ get_header(); ?>
         </div><!--/.row -->
 
     <div class="sect-border"></div>
+
+    <div class="container">
 
       <h3 id="tour" class="subhead">How does it work?</h3>
       <div class="row">
@@ -93,6 +96,7 @@ get_header(); ?>
           </div> <!-- #slideshow -->
         </div> <!-- /.col-md-12 -->
       </div> <!-- /.row -->
+      </div>
 
       <div class="sect-border"></div>
 
