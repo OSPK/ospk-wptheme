@@ -7522,3 +7522,7 @@ fieldset[disabled] textarea {
 textareatextarea {
   height: auto;
 }
+/* line 38, wordpress.less */
+.contentwrapper {
+  min-height: 500px;
+}

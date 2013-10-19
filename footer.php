@@ -6,6 +6,7 @@
  * @subpackage BootstrapWP
  */
 ?>
+</div><!--./contentwrapper-->
         <footer>
             <div class="footer row">
                 <div class="col-md-12">
