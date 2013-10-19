@@ -7539,31 +7539,36 @@ textareatextarea {
   margin-right: auto;
   width: 80%;
 }
+/* line 52, wordpress.less */
+.logo {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
 /* STRAPPED THEME STARTS HERE */
-/* line 53, wordpress.less */
+/* line 58, wordpress.less */
 .btn {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 2px;
 }
-/* line 58, wordpress.less */
+/* line 63, wordpress.less */
 .navbar ul.nav li button {
   margin: 0.7em 0 0 1em;
 }
-/* line 61, wordpress.less */
+/* line 66, wordpress.less */
 .jumbotron {
   background: url(../img/noisy_net.png);
   color: #fff;
   padding: 6.5em 0 6em;
   text-align: center;
 }
-/* line 67, wordpress.less */
+/* line 72, wordpress.less */
 .jumbotron h1 {
   font-family: "Ubuntu", verdana, sans-serif;
   font-size: 3em;
   font-weight: bold;
   text-shadow: 1px 1px 3px #000;
 }
-/* line 73, wordpress.less */
+/* line 78, wordpress.less */
 .jumbotron h2 {
   font-size: 1.2em;
   font-style: italic;
@@ -7571,7 +7576,7 @@ textareatextarea {
   line-height: 1.4em;
   margin-bottom: 1.4em;
 }
-/* line 80, wordpress.less */
+/* line 85, wordpress.less */
 .jumbotron .btn {
   box-shadow: 1px 1px 3px #000;
   font-size: 1.2em;
@@ -7579,13 +7584,13 @@ textareatextarea {
   padding: 0.3em 2.5em 0.5em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 87, wordpress.less */
+/* line 92, wordpress.less */
 .sect-border {
   border-top: 1px dashed #d6d6d6;
   border-bottom: 1px dashed #f6f6f6;
   margin: 2em 8% 2.4em;
 }
-/* line 92, wordpress.less */
+/* line 97, wordpress.less */
 .subhead {
   color: #000;
   font-family: "Ubuntu", verdana, sans-serif;
@@ -7594,22 +7599,22 @@ textareatextarea {
   text-align: center;
   margin: 0.3em 0;
 }
-/* line 101, wordpress.less */
+/* line 106, wordpress.less */
 #slideshow {
   margin: 0.5em 0 1.5em;
 }
-/* line 104, wordpress.less */
+/* line 109, wordpress.less */
 #slideshow .carousel-inner img {
   background: #000;
   height: 500px;
   width: 100%;
 }
-/* line 110, wordpress.less */
+/* line 115, wordpress.less */
 .carousel-control {
   vertical-align: middle;
   padding-top: 250px;
 }
-/* line 114, wordpress.less */
+/* line 119, wordpress.less */
 footer {
   background: #111;
   color: #fff;
@@ -7617,30 +7622,30 @@ footer {
   padding: 1.5em 0 0.8em;
 }
 @media screen and (max-width: 768px) {
-  /* line 121, wordpress.less */
+  /* line 126, wordpress.less */
   .navbar ul.nav li {
     text-align: center;
   }
-  /* line 124, wordpress.less */
+  /* line 129, wordpress.less */
   .navbar ul.nav li button {
     margin: 1em 0;
   }
-  /* line 127, wordpress.less */
+  /* line 132, wordpress.less */
   .jumbotron {
     font-size: 14px;
     padding: 6em 0 4em;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 133, wordpress.less */
+  /* line 138, wordpress.less */
   body {
     font-size: 12px;
   }
-  /* line 136, wordpress.less */
+  /* line 141, wordpress.less */
   .jumbotron {
     font-size: 12px;
   }
-  /* line 139, wordpress.less */
+  /* line 144, wordpress.less */
   footer .pull-right {
     display: none;
   }

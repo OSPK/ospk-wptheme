@@ -42,7 +42,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
-                    <?php bloginfo('name'); ?></a>
+                    <img class="logo" src="<?php bloginfo('template_directory'); ?>/assets/img/Opensource16.png"></a>
             </div><!-- /navbar header -->
                     <?php wp_nav_menu(
                         array(

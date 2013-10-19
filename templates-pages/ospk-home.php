@@ -14,7 +14,7 @@ get_header(); ?>
             <div class="container">
                 <h1><?php the_title();?></h1>
                 <h2><?php echo get_bloginfo ( 'description' );  ?></h2>
-                <p><a class="btn btn-primary btn-lg">Sign Up Today <i class="icon-arrow-right"></i></a></p>
+                <p><a class="btn btn-primary btn-lg">Start a Project <i class="icon-arrow-right"></i></a></p>
             </div><!--./container-->
         </div><!--/.jumbotron -->
 
