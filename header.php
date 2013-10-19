@@ -23,6 +23,8 @@
     <link rel="apple-touch-icon-precomposed"
           href="<?php echo get_template_directory_uri();?>/assets/ico/apple-touch-icon-57-precomposed.png">
     <?php wp_head(); ?>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
 </head>
 <style type="text/css">
     body {
