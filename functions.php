@@ -157,6 +157,30 @@ function bootstrapwp_widgets_init() {
 
     register_sidebar(
         array(
+            'name'          => __('OSPK-left', 'bootstrapwp'),
+            'id'            => 'ospk-left',
+            'description'   => __('Left textbox on ospk homepage', 'bootstrapwp'),
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h2>',
+            'after_title'   => '</h2>'
+        )
+    );
+
+    register_sidebar(
+        array(
+            'name'          => __('OSPK-right', 'bootstrapwp'),
+            'id'            => 'ospk-right',
+            'description'   => __('Left textbox on ospk homepage', 'bootstrapwp'),
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h2>',
+            'after_title'   => '</h2>'
+        )
+    );
+
+    register_sidebar(
+        array(
             'name'          => __('Footer Content', 'bootstrapwp'),
             'id'            => 'footer-content',
             'description'   => __('Footer text or acknowledgements', 'bootstrapwp'),
