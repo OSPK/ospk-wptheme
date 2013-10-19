@@ -1,6 +1,8 @@
 OSPK Theme for Wordpress
 ============
 
+Just a public repo of our Wordpress theme.
+
 Wordpress Theme using [Bootstrap 3.0][1]
 
 Based on [Rachel Baker's BootstrapWP][2]
