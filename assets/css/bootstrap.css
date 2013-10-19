@@ -7526,3 +7526,9 @@ textareatextarea {
 .contentwrapper {
   min-height: 500px;
 }
+/* line 42, wordpress.less */
+.ospkwidgets {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}

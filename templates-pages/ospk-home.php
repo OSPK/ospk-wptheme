@@ -18,7 +18,7 @@ get_header(); ?>
 
     <?php endwhile; endif; ?>
 
-        <div class="row">
+        <div class="row ospkwidgets">
                 <div class="col-md-6">
                     <?php
                     if (function_exists('dynamic_sidebar')) {
