@@ -1,4 +1,4 @@
-Bootstrap3-wp 
+OSPK Theme for Wordpress
 ============
 
 Wordpress Theme using [Bootstrap 3.0][1]
