@@ -12,7 +12,7 @@ get_header(); ?>
 
         <div id="top" class="jumbotron">
             <div class="container">
-                <h1><?php the_title();?></h1>
+                <h1><?php echo get_bloginfo ( 'name' );?></h1>
                 <h2><?php echo get_bloginfo ( 'description' );  ?></h2>
                 <p><a class="btn btn-primary btn-lg">Start a Project <i class="icon-arrow-right"></i></a></p>
             </div><!--./container-->
