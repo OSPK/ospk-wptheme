@@ -4,6 +4,7 @@
 
 @font-stack:    'Ubuntu', Verdana, sans-serif;
 @brandcolor:  #00af64;
+@bluebrand:   #0b62a4;
 @brandcolor2: #4586A6;
 @brandcolor3: #3D5A60;
 @brandcolor4: #E1E6EC;
@@ -122,6 +123,35 @@ width: 80%;
         padding:20px;
       }
 
+  }
+}
+
+footer {
+  background-color: darken(@bluebrand, 10%)!important;
+}
+
+nav.navbar {
+  ul#main-menu {
+
+    li {
+      a {
+        color:@brandcolor;
+        font-weight: 400;
+        font-weight: bold;
+      }
+      :hover {
+        color:darken(@brandcolor, 10%);
+      }
+      :focus {
+        color:darken(@brandcolor, 10%);
+      }
+    }
+
+    .current-menu-item {
+      a {
+      color:@bluebrand;
+      }
+    }
   }
 }
 
