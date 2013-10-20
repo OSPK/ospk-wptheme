@@ -320,7 +320,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #efefef;
 }
 /* line 31, scaffolding.less */
 input,
@@ -373,7 +373,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.428571429;
-  background-color: #ffffff;
+  background-color: #efefef;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1627,7 +1627,7 @@ th {
 }
 /* line 55, tables.less */
 .table .table {
-  background-color: #ffffff;
+  background-color: #efefef;
 }
 /* line 68, tables.less */
 .table-condensed thead > tr > th,
@@ -1919,10 +1919,10 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 /* line 695, mixins.less */
 .form-control:focus {
-  border-color: #66afe9;
+  border-color: #66949d;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 148, 157, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 148, 157, 0.6);
 }
 /* line 139, forms.less */
 .form-control[disabled],
@@ -4099,7 +4099,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: #ffffff;
+  background-color: #efefef;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -4131,7 +4131,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 /* line 182, navs.less */
 .nav-tabs.nav-justified > .active > a {
-  border-bottom-color: #ffffff;
+  border-bottom-color: #efefef;
 }
 /* line 113, navs.less */
 .nav-pills > li {
@@ -4191,7 +4191,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 /* line 182, navs.less */
 .nav-tabs-justified > .active > a {
-  border-bottom-color: #ffffff;
+  border-bottom-color: #efefef;
 }
 /* line 20, mixins.less */
 .tabbable:before,
@@ -5248,7 +5248,7 @@ a.list-group-item.active > .badge,
 .thumbnail {
   padding: 4px;
   line-height: 1.428571429;
-  background-color: #ffffff;
+  background-color: #efefef;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -7412,10 +7412,10 @@ input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus {
-  border-color: #66afe9;
+  border-color: #66949d;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 148, 157, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 148, 157, 0.6);
 }
 /* line 139, forms.less */
 select[disabled],
@@ -7521,10 +7521,10 @@ textarea::-webkit-input-placeholder {
 }
 /* line 695, mixins.less */
 textarea:focus {
-  border-color: #66afe9;
+  border-color: #66949d;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 148, 157, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 148, 157, 0.6);
 }
 /* line 139, forms.less */
 textarea[disabled],
@@ -7561,22 +7561,24 @@ textareatextarea {
   width: 10em;
   height: 10em;
   border-radius: 150px;
+  border: 1px solid #c2ccd8;
   margin: 20px auto;
   background: #e1e6ec;
   text-align: center;
   line-height: 12em;
 }
-/* line 81, wordpress.less */
+/* line 82, wordpress.less */
 .ospkwidgets .widgetleft {
   background-color: #4586a6;
   border: 1px solid #366982;
   height: 200px;
-  border-radius: 2px 2px 2px 30px;
+  border-radius: 2px;
   color: white;
   text-align: center;
   padding: 0px;
+  box-shadow: -1px 1px 3px #619fbd;
 }
-/* line 90, wordpress.less */
+/* line 92, wordpress.less */
 .ospkwidgets .widgetleft h2 {
   background-color: #366982;
   border-radius: 4px 4px 0px 0px;
@@ -7584,22 +7586,23 @@ textareatextarea {
   padding: 5px;
   margin: 0px;
 }
-/* line 98, wordpress.less */
+/* line 100, wordpress.less */
 .ospkwidgets .widgetleft p {
   padding: 20px;
   margin-top: 15px;
 }
-/* line 105, wordpress.less */
+/* line 107, wordpress.less */
 .ospkwidgets .widgetright {
   background-color: #3d5a60;
   border: 1px solid #293d41;
   height: 200px;
-  border-radius: 2px 2px 30px 2px;
+  border-radius: 2px;
   color: #efefef;
   text-align: center;
   padding: 0px;
+  box-shadow: 1px 1px 3px #51777f;
 }
-/* line 114, wordpress.less */
+/* line 117, wordpress.less */
 .ospkwidgets .widgetright h2 {
   background-color: #293d41;
   border-radius: 4px 4px 0px 0px;
@@ -7607,56 +7610,56 @@ textareatextarea {
   padding: 5px;
   margin: 0px;
 }
-/* line 122, wordpress.less */
+/* line 125, wordpress.less */
 .ospkwidgets .widgetright p {
   padding: 20px;
 }
-/* line 129, wordpress.less */
+/* line 132, wordpress.less */
 footer {
   background-color: #084574 !important;
 }
-/* line 137, wordpress.less */
+/* line 140, wordpress.less */
 nav.navbar ul#main-menu li a {
   color: #00af64;
   font-weight: 400;
   font-weight: bold;
 }
-/* line 142, wordpress.less */
+/* line 145, wordpress.less */
 nav.navbar ul#main-menu li :hover {
   color: #007c47;
 }
-/* line 145, wordpress.less */
+/* line 148, wordpress.less */
 nav.navbar ul#main-menu li :focus {
   color: #007c47;
 }
-/* line 151, wordpress.less */
+/* line 154, wordpress.less */
 nav.navbar ul#main-menu .current-menu-item a {
   color: #0b62a4;
 }
 /* STRAPPED THEME STARTS HERE */
-/* line 159, wordpress.less */
+/* line 162, wordpress.less */
 .btn {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 2px;
 }
-/* line 164, wordpress.less */
+/* line 167, wordpress.less */
 .navbar ul.nav li button {
   margin: 0.7em 0 0 1em;
 }
-/* line 167, wordpress.less */
+/* line 170, wordpress.less */
 .jumbotron {
   background: url(../img/noisy_net.png);
   color: #fff;
   padding: 1.5em 0 1em;
   text-align: center;
 }
-/* line 173, wordpress.less */
+/* line 176, wordpress.less */
 .jumbotron h1 {
   font-size: 2.2em;
   font-weight: bold;
   text-shadow: 1px 1px 3px #000;
 }
-/* line 178, wordpress.less */
+/* line 181, wordpress.less */
 .jumbotron h2 {
   font-size: 1.0em;
   font-style: italic;
@@ -7664,7 +7667,7 @@ nav.navbar ul#main-menu .current-menu-item a {
   line-height: 1.4em;
   margin-bottom: 1.4em;
 }
-/* line 185, wordpress.less */
+/* line 188, wordpress.less */
 .jumbotron .btn {
   box-shadow: 1px 1px 3px #000;
   font-size: 1.2em;
@@ -7672,13 +7675,13 @@ nav.navbar ul#main-menu .current-menu-item a {
   padding: 0.3em 2.5em 0.5em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 192, wordpress.less */
+/* line 195, wordpress.less */
 .sect-border {
   border-top: 1px dashed #d6d6d6;
   border-bottom: 1px dashed #f6f6f6;
   margin: 2em 8% 2.4em;
 }
-/* line 197, wordpress.less */
+/* line 200, wordpress.less */
 .subhead {
   color: #000;
   font-size: 3em;
@@ -7686,25 +7689,25 @@ nav.navbar ul#main-menu .current-menu-item a {
   text-align: center;
   margin: 0.3em 0;
 }
-/* line 205, wordpress.less */
+/* line 208, wordpress.less */
 #slideshow {
   margin: 0.5em 0 1.5em;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 211, wordpress.less */
+/* line 214, wordpress.less */
 #slideshow .carousel-inner img {
   background: #000;
   height: 500px;
   width: 100%;
 }
-/* line 217, wordpress.less */
+/* line 220, wordpress.less */
 .carousel-control {
   vertical-align: middle;
   padding-top: 250px;
 }
-/* line 221, wordpress.less */
+/* line 224, wordpress.less */
 footer {
   background: #111;
   color: #fff;
@@ -7712,30 +7715,30 @@ footer {
   padding: 1.5em 0 0.8em;
 }
 @media screen and (max-width: 768px) {
-  /* line 228, wordpress.less */
+  /* line 231, wordpress.less */
   .navbar ul.nav li {
     text-align: center;
   }
-  /* line 231, wordpress.less */
+  /* line 234, wordpress.less */
   .navbar ul.nav li button {
     margin: 1em 0;
   }
-  /* line 234, wordpress.less */
+  /* line 237, wordpress.less */
   .jumbotron {
     font-size: 14px;
     padding: 1em 0 0.8em;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 240, wordpress.less */
+  /* line 243, wordpress.less */
   body {
     font-size: 12px;
   }
-  /* line 243, wordpress.less */
+  /* line 246, wordpress.less */
   .jumbotron {
     font-size: 12px;
   }
-  /* line 246, wordpress.less */
+  /* line 249, wordpress.less */
   footer .pull-right {
     display: none;
   }
