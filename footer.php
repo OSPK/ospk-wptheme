@@ -20,8 +20,8 @@
         <?php wp_footer(); ?>
         <script type="text/javascript">
         $('#top').mousemove(function(e){
-                var amountMovedX = (e.pageX * -1 / 6);
-                var amountMovedY = (e.pageY * -1 / 6);
+                var amountMovedX = (e.pageX * -1 / 15);
+                var amountMovedY = (e.pageY * -1 / 19);
                 $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
             });
         </script>

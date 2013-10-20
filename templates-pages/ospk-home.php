@@ -11,12 +11,13 @@ get_header(); ?>
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
         <div id="top" class="jumbotron">
-            <div class="container">
-                <h1><?php echo get_bloginfo ( 'name' );?></h1>
-                <h2><?php echo get_bloginfo ( 'description' );  ?></h2>
-                <p><a class="btn btn-primary btn-lg">Find a Project <i class="icon-arrow-right"></i></a></p>
-
-            </div><!--./container-->
+          <div id="top2" class="jumboplanet">
+              <div class="container">
+                  <h1><?php echo get_bloginfo ( 'name' );?></h1>
+                  <h2><?php echo get_bloginfo ( 'description' );  ?></h2>
+                  <p><a class="btn btn-primary btn-lg">Find a Project <i class="icon-arrow-right"></i></a></p>
+              </div><!--./container-->
+          </div><!--./top2-->
         </div><!--/.jumbotron -->
 
     <?php endwhile; endif; ?>
@@ -25,16 +26,22 @@ get_header(); ?>
 
         <div class="row ospkwidgets">
                 <div class="col-md-6">
-                    <?php
-                    if (function_exists('dynamic_sidebar')) {
-                        dynamic_sidebar("ospk-left");
-                    } ?>
+                  <div class="circular"><i class="icon-group icon-4x"></i></div>
+                    <div class="widgetleft">
+                      <?php
+                      if (function_exists('dynamic_sidebar')) {
+                          dynamic_sidebar("ospk-left");
+                      } ?>
+                    </div>
                 </div>
                 <div class="col-md-6">
-                    <?php
-                    if (function_exists('dynamic_sidebar')) {
-                        dynamic_sidebar("ospk-right");
-                    } ?>
+                  <div class="circular"><i class="icon-rocket icon-4x"></i></div>
+                    <div class="widgetright">
+                        <?php
+                        if (function_exists('dynamic_sidebar')) {
+                            dynamic_sidebar("ospk-right");
+                        } ?>
+                    </div>
                 </div>
         </div><!--/.row -->
 

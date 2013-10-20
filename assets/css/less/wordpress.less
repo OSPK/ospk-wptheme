@@ -2,8 +2,14 @@
 
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,500,400italic);
 
-* {
-	font-family: 'Ubuntu', Verdana, 'sans serif';
+@font-stack:    'Ubuntu', Verdana, sans-serif;
+@brandcolor:  #00af64;
+@brandcolor2: #4586A6;
+@brandcolor3: #3D5A60;
+@brandcolor4: #E1E6EC;
+
+*, body, h1, h2, h3, h4, h5, h6, p {
+	font-family: @font-stack;
 }
 
 //Submit button (quickfix)
@@ -54,6 +60,71 @@ width: 80%;
 	margin-bottom: -10px;
 }
 
+.ospkwidgets {
+
+
+  .textwidget {
+    margin-top: 20px;
+  }
+
+  .circular {
+    width: 10em;
+    height: 10em;
+    border-radius: 150px;
+    margin: 20px auto;
+    background: @brandcolor4;
+    text-align: center;
+    line-height: 12em;
+  }
+
+  .widgetleft {
+    background-color: @brandcolor2;
+    border: 1px solid darken(@brandcolor2, 10%);
+    height: 200px;
+    border-radius: 2px 2px 2px 30px;
+    color: white;
+    text-align: center;
+    padding: 0px;
+
+      h2 {
+        background-color: darken(@brandcolor2, 10%);
+        border-radius: 4px 4px 0px 0px;
+        font-size: 1.5em;
+        padding:5px;
+        margin: 0px;
+      }
+
+      p {
+        padding:20px;
+        margin-top: 15px;
+      }
+
+  }
+
+  .widgetright {
+    background-color: @brandcolor3;
+    border: 1px solid darken(@brandcolor3, 10%);
+    height: 200px;
+    border-radius: 2px 2px 30px 2px;
+    color: #efefef;
+    text-align: center;
+    padding: 0px;
+
+      h2 {
+        background-color: darken(@brandcolor3, 10%);
+        border-radius: 4px 4px 0px 0px;
+        font-size: 1.5em;
+        padding:5px;
+        margin: 0px;
+      }
+
+      p {
+        padding:20px;
+      }
+
+  }
+}
+
 /* STRAPPED THEME STARTS HERE */
 .btn {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -70,7 +141,6 @@ width: 80%;
   text-align: center;
 }
 .jumbotron h1 {
-  font-family: "Ubuntu", verdana, sans-serif;
   font-size: 2.2em;
   font-weight: bold;
   text-shadow: 1px 1px 3px #000;
@@ -96,7 +166,6 @@ width: 80%;
 }
 .subhead {
   color: #000;
-  font-family: "Ubuntu", verdana, sans-serif;
   font-size: 3em;
   font-weight: bold;
   text-align: center;
