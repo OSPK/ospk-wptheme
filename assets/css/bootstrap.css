@@ -7542,129 +7542,128 @@ textareatextarea {
   min-height: 500px;
 }
 /* line 53, wordpress.less */
+.logo {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+/* line 60, wordpress.less */
 .ospkwidgets {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
 }
-/* line 59, wordpress.less */
-.logo {
-  margin-top: -10px;
-  margin-bottom: -10px;
-}
-/* line 67, wordpress.less */
+/* line 66, wordpress.less */
 .ospkwidgets .textwidget {
-  margin-top: 20px;
+  margin-top: 2px;
 }
-/* line 71, wordpress.less */
+/* line 70, wordpress.less */
 .ospkwidgets .circular {
-  width: 10em;
-  height: 10em;
-  border-radius: 150px;
-  border: 1px solid #c2ccd8;
+  width: 7em;
+  height: 7em;
+  border-radius: 7em;
   margin: 20px auto;
-  background: #e1e6ec;
+  background: #c2ccd8;
   text-align: center;
-  line-height: 12em;
+  line-height: 8em;
+  float: left;
+  cursor: default;
 }
 /* line 82, wordpress.less */
 .ospkwidgets .widgetleft {
-  background-color: #4586a6;
-  border: 1px solid #366982;
-  height: 200px;
-  border-radius: 2px;
-  color: white;
-  text-align: center;
-  padding: 0px;
-  box-shadow: -1px 1px 3px #619fbd;
+  margin: 1em 0em 0em 8em;
 }
-/* line 92, wordpress.less */
+/* line 87, wordpress.less */
 .ospkwidgets .widgetleft h2 {
-  background-color: #366982;
-  border-radius: 4px 4px 0px 0px;
   font-size: 1.5em;
-  padding: 5px;
+  padding: 0px;
   margin: 0px;
+}
+/* line 93, wordpress.less */
+.ospkwidgets .widgetleft p {
+  padding: 0px;
+  margin-top: 5px;
 }
 /* line 100, wordpress.less */
-.ospkwidgets .widgetleft p {
-  padding: 20px;
-  margin-top: 15px;
-}
-/* line 107, wordpress.less */
 .ospkwidgets .widgetright {
-  background-color: #3d5a60;
-  border: 1px solid #293d41;
-  height: 200px;
-  border-radius: 2px;
-  color: #efefef;
-  text-align: center;
-  padding: 0px;
-  box-shadow: 1px 1px 3px #51777f;
+  margin: 1em 0em 0em 8em;
 }
-/* line 117, wordpress.less */
+/* line 106, wordpress.less */
 .ospkwidgets .widgetright h2 {
-  background-color: #293d41;
-  border-radius: 4px 4px 0px 0px;
   font-size: 1.5em;
-  padding: 5px;
+  padding: 0px;
   margin: 0px;
 }
-/* line 125, wordpress.less */
+/* line 112, wordpress.less */
 .ospkwidgets .widgetright p {
-  padding: 20px;
+  padding: 0px;
+  margin-top: 5px;
 }
-/* line 132, wordpress.less */
+/* line 121, wordpress.less */
+div.circular:hover {
+  background-color: #4586a6;
+  transition-duration: 1s;
+  color: white;
+}
+/* line 127, wordpress.less */
 footer {
   background-color: #052944 !important;
 }
-/* line 140, wordpress.less */
+/* line 135, wordpress.less */
 nav.navbar ul#main-menu li a {
   color: #00af64;
   font-weight: 400;
   font-weight: bold;
 }
-/* line 145, wordpress.less */
+/* line 140, wordpress.less */
 nav.navbar ul#main-menu li :hover {
   color: #007c47;
 }
-/* line 148, wordpress.less */
+/* line 143, wordpress.less */
 nav.navbar ul#main-menu li :focus {
   color: #007c47;
 }
-/* line 154, wordpress.less */
+/* line 149, wordpress.less */
 nav.navbar ul#main-menu .current-menu-item a {
   color: #0b62a4;
 }
-/* line 161, wordpress.less */
-.modality {
-  margin: 10px auto;
-  width: 200px;
+/* line 158, wordpress.less */
+.modality .modal-content {
+  background-color: #fdf6af;
+  color: #222;
+}
+/* line 163, wordpress.less */
+.modality .modal-header {
+  border-bottom: 0px rgba(0, 0, 0, 0);
+}
+/* line 167, wordpress.less */
+.modality .modal-body {
+  padding: 0px;
+  background-color: blue;
 }
 /* STRAPPED THEME STARTS HERE */
-/* line 167, wordpress.less */
+/* line 175, wordpress.less */
 .btn {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 2px;
 }
-/* line 172, wordpress.less */
+/* line 180, wordpress.less */
 .navbar ul.nav li button {
   margin: 0.7em 0 0 1em;
 }
-/* line 175, wordpress.less */
+/* line 183, wordpress.less */
 .jumbotron {
   background: url(../img/noisy_net.png);
   color: #fff;
   padding: 1.5em 0 1em;
   text-align: center;
 }
-/* line 181, wordpress.less */
+/* line 189, wordpress.less */
 .jumbotron h1 {
   font-size: 2.2em;
   font-weight: bold;
   text-shadow: 1px 1px 3px #000;
 }
-/* line 186, wordpress.less */
+/* line 194, wordpress.less */
 .jumbotron h2 {
   font-size: 1.0em;
   font-style: italic;
@@ -7672,21 +7671,28 @@ nav.navbar ul#main-menu .current-menu-item a {
   line-height: 1.4em;
   margin-bottom: 1.4em;
 }
-/* line 193, wordpress.less */
+/* line 202, wordpress.less */
 .jumbotron .btn {
+  box-shadow: 1px 1px 3px #000;
+  padding: 0.2em 1.5em 0.2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+/* line 208, wordpress.less */
+.jumbotron .btn-lg {
   box-shadow: 1px 1px 3px #000;
   font-size: 1.2em;
   font-weight: bold;
-  padding: 0.3em 2.5em 0.5em;
+  padding: 0.5em 2.5em 0.5em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 200, wordpress.less */
+/* line 216, wordpress.less */
 .sect-border {
   border-top: 1px dashed #d6d6d6;
   border-bottom: 1px dashed #f6f6f6;
   margin: 2em 8% 2.4em;
 }
-/* line 205, wordpress.less */
+/* line 221, wordpress.less */
 .subhead {
   color: #000;
   font-size: 3em;
@@ -7694,24 +7700,24 @@ nav.navbar ul#main-menu .current-menu-item a {
   text-align: center;
   margin: 0.3em 0;
 }
-/* line 213, wordpress.less */
+/* line 229, wordpress.less */
 #slideshow {
   margin: 0.5em 0 1.5em;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 218, wordpress.less */
+/* line 234, wordpress.less */
 #slideshow .carousel-inner img {
   background: #000;
-  height: 500px;
+  height: 300px;
   width: 100%;
 }
-/* line 224, wordpress.less */
+/* line 240, wordpress.less */
 .carousel-control {
   vertical-align: middle;
   padding-top: 250px;
 }
-/* line 228, wordpress.less */
+/* line 244, wordpress.less */
 footer {
   background: #111;
   color: #fff;
@@ -7719,32 +7725,32 @@ footer {
   padding: 1.5em 0 0.8em;
 }
 @media screen and (max-width: 768px) {
-  /* line 235, wordpress.less */
+  /* line 251, wordpress.less */
   .navbar ul.nav li {
     text-align: center;
   }
-  /* line 238, wordpress.less */
+  /* line 254, wordpress.less */
   .navbar ul.nav li button {
     margin: 1em 0;
   }
-  /* line 241, wordpress.less */
+  /* line 257, wordpress.less */
   .jumbotron {
     font-size: 14px;
     padding: 1em 0 0.8em;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 247, wordpress.less */
+  /* line 263, wordpress.less */
   body {
     font-size: 12px;
   }
-  /* line 250, wordpress.less */
+  /* line 266, wordpress.less */
   .jumbotron {
     font-size: 12px;
   }
-  /* line 253, wordpress.less */
+  /* line 269, wordpress.less */
   footer .pull-right {
     display: none;
   }
 }
-/* Strapped theme ends here*/
+/* Strapped theme ends here */

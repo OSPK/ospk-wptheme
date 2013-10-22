@@ -16,6 +16,7 @@ get_header(); ?>
                   <h1><?php echo get_bloginfo ( 'name' );?></h1>
                   <h2><?php echo get_bloginfo ( 'description' );  ?></h2>
                   <p><a class="btn btn-primary btn-lg">Find a Project <i class="icon-arrow-right"></i></a></p>
+                  <p><a data-toggle="modal" href="#myModal" class="btn btn-primary">How does it work?</a></p>
               </div><!--./container-->
           </div><!--./top2-->
         </div><!--/.jumbotron -->
@@ -26,8 +27,9 @@ get_header(); ?>
 
         <div class="row ospkwidgets">
                 <div class="col-md-6">
-                  <div class="circular"><i class="icon-group icon-4x"></i></div>
-                    <div class="widgetleft">
+                  <div class="circular"><i class="icon-group icon-3x"></i>
+                  </div>
+                    <div class="widgetleft clearfix">
                       <?php
                       if (function_exists('dynamic_sidebar')) {
                           dynamic_sidebar("ospk-left");
@@ -35,8 +37,9 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="circular"><i class="icon-rocket icon-4x"></i></div>
-                    <div class="widgetright">
+                  <div class="circular"><i class="icon-rocket icon-3x"></i>
+                  </div>
+                    <div class="widgetright clearfix">
                         <?php
                         if (function_exists('dynamic_sidebar')) {
                             dynamic_sidebar("ospk-right");
@@ -45,17 +48,8 @@ get_header(); ?>
                 </div>
         </div><!--/.row -->
 
-    <div class="sect-border"></div>
-
-            <!-- Button trigger modal -->
-          <div class="container">
-            <div class="modality">
-            <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">How does it work?</a>
-            </div>
-          </div>
-
-              <!-- Modal -->
-          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <!-- Modal -->
+          <div class="modal modality fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
@@ -124,8 +118,10 @@ get_header(); ?>
 
       <div class="sect-border"></div>
 
-        <div class="row content frontpage-content">
-            <?php the_content(); ?>
+        <div class="container">
+          <div class="row content frontpage-content">
+              <?php the_content(); ?>
+          </div>
         </div>
     </div><!--Container-->
 

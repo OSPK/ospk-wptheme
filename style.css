@@ -45,3 +45,6 @@ img {
 .form-allowed-tags {
     display:none;
 }
+::selection, ::-moz-selection {
+  background: #fdf6af;
+}
