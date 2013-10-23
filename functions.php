@@ -56,6 +56,7 @@ function bootstrapwp_images() {
 function bootstrapwp_styles_loader() {
 
     wp_enqueue_style('bootstrap3-wp-style', get_template_directory_uri() . '/assets/css/bootstrap.css', false, '1.0', 'all');
+    wp_enqueue_style('buddypress-style', get_template_directory_uri() . '/assets/css/buddypress.css', false, '1.0', 'all');
     wp_enqueue_style('bootstrap3-wp-default', get_stylesheet_uri());
 
 
