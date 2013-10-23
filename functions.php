@@ -62,6 +62,10 @@ function bootstrapwp_styles_loader() {
 }
 add_action('wp_enqueue_scripts', 'bootstrapwp_styles_loader');
 
+/** Disable adminbar **/
+
+    add_filter('show_admin_bar', '__return_false');  
+
 /**
  * Load JavaScript and jQuery files for theme.
  *
