@@ -7537,26 +7537,159 @@ fieldset[disabled] textarea {
 textareatextarea {
   height: auto;
 }
-/* line 49, wordpress.less */
+/* line 51, wordpress.less */
+#buddypress button,
+#buddypress a.button,
+#buddypress input[type="submit"],
+#buddypress input[type="button"],
+#buddypress input[type="reset"],
+#buddypress ul.button-nav li a,
+#buddypress div.generic-button a,
+#buddypress .comment-reply-link,
+a.bp-title-button {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  font-size: 1em;
+}
+/* line 57, mixins.less */
+#buddypress button:-moz-placeholder,
+#buddypress a.button:-moz-placeholder,
+#buddypress input[type="submit"]:-moz-placeholder,
+#buddypress input[type="button"]:-moz-placeholder,
+#buddypress input[type="reset"]:-moz-placeholder,
+#buddypress ul.button-nav li a:-moz-placeholder,
+#buddypress div.generic-button a:-moz-placeholder,
+#buddypress .comment-reply-link:-moz-placeholder,
+a.bp-title-button:-moz-placeholder {
+  color: #999999;
+}
+/* line 58, mixins.less */
+#buddypress button::-moz-placeholder,
+#buddypress a.button::-moz-placeholder,
+#buddypress input[type="submit"]::-moz-placeholder,
+#buddypress input[type="button"]::-moz-placeholder,
+#buddypress input[type="reset"]::-moz-placeholder,
+#buddypress ul.button-nav li a::-moz-placeholder,
+#buddypress div.generic-button a::-moz-placeholder,
+#buddypress .comment-reply-link::-moz-placeholder,
+a.bp-title-button::-moz-placeholder {
+  color: #999999;
+}
+/* line 59, mixins.less */
+#buddypress button:-ms-input-placeholder,
+#buddypress a.button:-ms-input-placeholder,
+#buddypress input[type="submit"]:-ms-input-placeholder,
+#buddypress input[type="button"]:-ms-input-placeholder,
+#buddypress input[type="reset"]:-ms-input-placeholder,
+#buddypress ul.button-nav li a:-ms-input-placeholder,
+#buddypress div.generic-button a:-ms-input-placeholder,
+#buddypress .comment-reply-link:-ms-input-placeholder,
+a.bp-title-button:-ms-input-placeholder {
+  color: #999999;
+}
+/* line 60, mixins.less */
+#buddypress button::-webkit-input-placeholder,
+#buddypress a.button::-webkit-input-placeholder,
+#buddypress input[type="submit"]::-webkit-input-placeholder,
+#buddypress input[type="button"]::-webkit-input-placeholder,
+#buddypress input[type="reset"]::-webkit-input-placeholder,
+#buddypress ul.button-nav li a::-webkit-input-placeholder,
+#buddypress div.generic-button a::-webkit-input-placeholder,
+#buddypress .comment-reply-link::-webkit-input-placeholder,
+a.bp-title-button::-webkit-input-placeholder {
+  color: #999999;
+}
+/* line 695, mixins.less */
+#buddypress button:focus,
+#buddypress a.button:focus,
+#buddypress input[type="submit"]:focus,
+#buddypress input[type="button"]:focus,
+#buddypress input[type="reset"]:focus,
+#buddypress ul.button-nav li a:focus,
+#buddypress div.generic-button a:focus,
+#buddypress .comment-reply-link:focus,
+a.bp-title-button:focus {
+  border-color: #66949d;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 148, 157, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 148, 157, 0.6);
+}
+/* line 139, forms.less */
+#buddypress button[disabled],
+#buddypress a.button[disabled],
+#buddypress input[type="submit"][disabled],
+#buddypress input[type="button"][disabled],
+#buddypress input[type="reset"][disabled],
+#buddypress ul.button-nav li a[disabled],
+#buddypress div.generic-button a[disabled],
+#buddypress .comment-reply-link[disabled],
+a.bp-title-button[disabled],
+#buddypress button[readonly],
+#buddypress a.button[readonly],
+#buddypress input[type="submit"][readonly],
+#buddypress input[type="button"][readonly],
+#buddypress input[type="reset"][readonly],
+#buddypress ul.button-nav li a[readonly],
+#buddypress div.generic-button a[readonly],
+#buddypress .comment-reply-link[readonly],
+a.bp-title-button[readonly],
+fieldset[disabled] #buddypress button,
+fieldset[disabled] #buddypress a.button,
+fieldset[disabled] #buddypress input[type="submit"],
+fieldset[disabled] #buddypress input[type="button"],
+fieldset[disabled] #buddypress input[type="reset"],
+fieldset[disabled] #buddypress ul.button-nav li a,
+fieldset[disabled] #buddypress div.generic-button a,
+fieldset[disabled] #buddypress .comment-reply-link,
+fieldset[disabled] a.bp-title-button {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+/* line 147, forms.less */
+textarea#buddypress button,
+textarea#buddypress a.button,
+textarea#buddypress input[type="submit"],
+textarea#buddypress input[type="button"],
+textarea#buddypress input[type="reset"],
+textarea#buddypress ul.button-nav li a,
+textarea#buddypress div.generic-button a,
+textarea#buddypress .comment-reply-link,
+textareaa.bp-title-button {
+  height: auto;
+}
+/* line 65, wordpress.less */
 .contentwrapper {
   min-height: 500px;
 }
-/* line 53, wordpress.less */
+/* line 69, wordpress.less */
 .logo {
   margin-top: -10px;
   margin-bottom: -10px;
 }
-/* line 60, wordpress.less */
+/* line 76, wordpress.less */
 .ospkwidgets {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
 }
-/* line 66, wordpress.less */
+/* line 82, wordpress.less */
 .ospkwidgets .textwidget {
   margin-top: 2px;
 }
-/* line 70, wordpress.less */
+/* line 86, wordpress.less */
 .ospkwidgets .circular {
   width: 7em;
   height: 7em;
@@ -7568,102 +7701,102 @@ textareatextarea {
   float: left;
   cursor: default;
 }
-/* line 82, wordpress.less */
+/* line 98, wordpress.less */
 .ospkwidgets .widgetleft {
   margin: 1em 0em 0em 8em;
 }
-/* line 87, wordpress.less */
+/* line 103, wordpress.less */
 .ospkwidgets .widgetleft h2 {
   font-size: 1.5em;
   padding: 0px;
   margin: 0px;
 }
-/* line 93, wordpress.less */
+/* line 109, wordpress.less */
 .ospkwidgets .widgetleft p {
   padding: 0px;
   margin-top: 5px;
 }
-/* line 100, wordpress.less */
+/* line 116, wordpress.less */
 .ospkwidgets .widgetright {
   margin: 1em 0em 0em 8em;
 }
-/* line 106, wordpress.less */
+/* line 122, wordpress.less */
 .ospkwidgets .widgetright h2 {
   font-size: 1.5em;
   padding: 0px;
   margin: 0px;
 }
-/* line 112, wordpress.less */
+/* line 128, wordpress.less */
 .ospkwidgets .widgetright p {
   padding: 0px;
   margin-top: 5px;
 }
-/* line 121, wordpress.less */
+/* line 137, wordpress.less */
 div.circular:hover {
   background-color: #4586a6;
   transition-duration: 1s;
   color: white;
 }
-/* line 127, wordpress.less */
+/* line 143, wordpress.less */
 footer {
   background-color: #052944 !important;
 }
-/* line 135, wordpress.less */
+/* line 151, wordpress.less */
 nav.navbar ul#main-menu li a {
   color: #00af64;
   font-weight: 400;
   font-weight: bold;
 }
-/* line 140, wordpress.less */
+/* line 156, wordpress.less */
 nav.navbar ul#main-menu li :hover {
   color: #007c47;
 }
-/* line 143, wordpress.less */
+/* line 159, wordpress.less */
 nav.navbar ul#main-menu li :focus {
   color: #007c47;
 }
-/* line 149, wordpress.less */
+/* line 165, wordpress.less */
 nav.navbar ul#main-menu .current-menu-item a {
   color: #0b62a4;
 }
-/* line 158, wordpress.less */
+/* line 174, wordpress.less */
 .modality .modal-content {
   background-color: #fdf6af;
   color: #222;
 }
-/* line 163, wordpress.less */
+/* line 179, wordpress.less */
 .modality .modal-header {
   border-bottom: 0px rgba(0, 0, 0, 0);
 }
-/* line 167, wordpress.less */
+/* line 183, wordpress.less */
 .modality .modal-body {
   padding: 0px;
   background-color: blue;
 }
 /* STRAPPED THEME STARTS HERE */
-/* line 175, wordpress.less */
+/* line 191, wordpress.less */
 .btn {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 2px;
 }
-/* line 180, wordpress.less */
+/* line 196, wordpress.less */
 .navbar ul.nav li button {
   margin: 0.7em 0 0 1em;
 }
-/* line 183, wordpress.less */
+/* line 199, wordpress.less */
 .jumbotron {
   background: url(../img/noisy_net.png);
   color: #fff;
   padding: 1.5em 0 1em;
   text-align: center;
 }
-/* line 189, wordpress.less */
+/* line 205, wordpress.less */
 .jumbotron h1 {
   font-size: 2.2em;
   font-weight: bold;
   text-shadow: 1px 1px 3px #000;
 }
-/* line 194, wordpress.less */
+/* line 210, wordpress.less */
 .jumbotron h2 {
   font-size: 1.0em;
   font-style: italic;
@@ -7671,14 +7804,14 @@ nav.navbar ul#main-menu .current-menu-item a {
   line-height: 1.4em;
   margin-bottom: 1.4em;
 }
-/* line 202, wordpress.less */
+/* line 218, wordpress.less */
 .jumbotron .btn {
   box-shadow: 1px 1px 3px #000;
   padding: 0.2em 1.5em 0.2em;
   font-weight: bold;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 208, wordpress.less */
+/* line 224, wordpress.less */
 .jumbotron .btn-lg {
   box-shadow: 1px 1px 3px #000;
   font-size: 1.2em;
@@ -7686,13 +7819,13 @@ nav.navbar ul#main-menu .current-menu-item a {
   padding: 0.5em 2.5em 0.5em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 216, wordpress.less */
+/* line 232, wordpress.less */
 .sect-border {
   border-top: 1px dashed #d6d6d6;
   border-bottom: 1px dashed #f6f6f6;
   margin: 2em 8% 2.4em;
 }
-/* line 221, wordpress.less */
+/* line 237, wordpress.less */
 .subhead {
   color: #000;
   font-size: 3em;
@@ -7700,24 +7833,24 @@ nav.navbar ul#main-menu .current-menu-item a {
   text-align: center;
   margin: 0.3em 0;
 }
-/* line 229, wordpress.less */
+/* line 245, wordpress.less */
 #slideshow {
   margin: 0.5em 0 1.5em;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 234, wordpress.less */
+/* line 250, wordpress.less */
 #slideshow .carousel-inner img {
   background: #000;
   height: 300px;
   width: 100%;
 }
-/* line 240, wordpress.less */
+/* line 256, wordpress.less */
 .carousel-control {
   vertical-align: middle;
   padding-top: 250px;
 }
-/* line 244, wordpress.less */
+/* line 260, wordpress.less */
 footer {
   background: #111;
   color: #fff;
@@ -7725,36 +7858,36 @@ footer {
   padding: 1.5em 0 0.8em;
 }
 @media screen and (max-width: 768px) {
-  /* line 251, wordpress.less */
+  /* line 267, wordpress.less */
   .navbar ul.nav li {
     text-align: center;
   }
-  /* line 254, wordpress.less */
+  /* line 270, wordpress.less */
   .navbar ul.nav li button {
     margin: 1em 0;
   }
-  /* line 257, wordpress.less */
+  /* line 273, wordpress.less */
   .jumbotron {
     font-size: 14px;
     padding: 1em 0 0.8em;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 263, wordpress.less */
+  /* line 279, wordpress.less */
   body {
     font-size: 12px;
   }
-  /* line 266, wordpress.less */
+  /* line 282, wordpress.less */
   .jumbotron {
     font-size: 12px;
   }
-  /* line 269, wordpress.less */
+  /* line 285, wordpress.less */
   footer .pull-right {
     display: none;
   }
 }
 /* Strapped theme ends here */
-/* line 275, wordpress.less */
+/* line 291, wordpress.less */
 #wpstats {
   display: none;
 }
