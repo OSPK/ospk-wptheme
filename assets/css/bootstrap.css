@@ -8103,6 +8103,6 @@ footer {
 }
 /* Strapped theme ends here */
 /* line 293, wordpress.less */
-#wpstats img {
+img#wpstats {
   display: none;
 }
