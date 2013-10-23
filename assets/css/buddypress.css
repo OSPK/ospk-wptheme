@@ -6,8 +6,9 @@
 	font-size: 1em;
 	    color: rgb(255, 255, 255);
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
-    background-color: rgb(0, 109, 204);
+    background-color: #00af64;
     background-image: linear-gradient(to bottom, rgb(0, 136, 204), rgb(0, 68, 204));
     background-repeat: repeat-x;
+    border-radius: 4px;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
