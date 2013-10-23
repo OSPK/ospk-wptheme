@@ -7546,7 +7546,8 @@ textareatextarea {
 #buddypress ul.button-nav li a,
 #buddypress div.generic-button a,
 #buddypress .comment-reply-link,
-a.bp-title-button {
+a.bp-title-button,
+.button {
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
@@ -7580,7 +7581,8 @@ a.bp-title-button {
 #buddypress ul.button-nav li a:focus,
 #buddypress div.generic-button a:focus,
 #buddypress .comment-reply-link:focus,
-a.bp-title-button:focus {
+a.bp-title-button:focus,
+.button:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
@@ -7595,6 +7597,7 @@ a.bp-title-button:focus {
 #buddypress div.generic-button a:hover,
 #buddypress .comment-reply-link:hover,
 a.bp-title-button:hover,
+.button:hover,
 #buddypress button:focus,
 #buddypress a.button:focus,
 #buddypress input[type="submit"]:focus,
@@ -7603,7 +7606,8 @@ a.bp-title-button:hover,
 #buddypress ul.button-nav li a:focus,
 #buddypress div.generic-button a:focus,
 #buddypress .comment-reply-link:focus,
-a.bp-title-button:focus {
+a.bp-title-button:focus,
+.button:focus {
   color: #333333;
   text-decoration: none;
 }
@@ -7617,6 +7621,7 @@ a.bp-title-button:focus {
 #buddypress div.generic-button a:active,
 #buddypress .comment-reply-link:active,
 a.bp-title-button:active,
+.button:active,
 #buddypress button.active,
 #buddypress a.button.active,
 #buddypress input[type="submit"].active,
@@ -7625,7 +7630,8 @@ a.bp-title-button:active,
 #buddypress ul.button-nav li a.active,
 #buddypress div.generic-button a.active,
 #buddypress .comment-reply-link.active,
-a.bp-title-button.active {
+a.bp-title-button.active,
+.button.active {
   outline: 0;
   background-image: none;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
@@ -7641,6 +7647,7 @@ a.bp-title-button.active {
 #buddypress div.generic-button a.disabled,
 #buddypress .comment-reply-link.disabled,
 a.bp-title-button.disabled,
+.button.disabled,
 #buddypress button[disabled],
 #buddypress a.button[disabled],
 #buddypress input[type="submit"][disabled],
@@ -7650,6 +7657,7 @@ a.bp-title-button.disabled,
 #buddypress div.generic-button a[disabled],
 #buddypress .comment-reply-link[disabled],
 a.bp-title-button[disabled],
+.button[disabled],
 fieldset[disabled] #buddypress button,
 fieldset[disabled] #buddypress a.button,
 fieldset[disabled] #buddypress input[type="submit"],
@@ -7658,7 +7666,8 @@ fieldset[disabled] #buddypress input[type="reset"],
 fieldset[disabled] #buddypress ul.button-nav li a,
 fieldset[disabled] #buddypress div.generic-button a,
 fieldset[disabled] #buddypress .comment-reply-link,
-fieldset[disabled] a.bp-title-button {
+fieldset[disabled] a.bp-title-button,
+fieldset[disabled] .button {
   cursor: not-allowed;
   pointer-events: none;
   opacity: 0.65;
@@ -7676,6 +7685,7 @@ fieldset[disabled] a.bp-title-button {
 #buddypress div.generic-button a:hover,
 #buddypress .comment-reply-link:hover,
 a.bp-title-button:hover,
+.button:hover,
 #buddypress button:focus,
 #buddypress a.button:focus,
 #buddypress input[type="submit"]:focus,
@@ -7685,6 +7695,7 @@ a.bp-title-button:hover,
 #buddypress div.generic-button a:focus,
 #buddypress .comment-reply-link:focus,
 a.bp-title-button:focus,
+.button:focus,
 #buddypress button:active,
 #buddypress a.button:active,
 #buddypress input[type="submit"]:active,
@@ -7694,6 +7705,7 @@ a.bp-title-button:focus,
 #buddypress div.generic-button a:active,
 #buddypress .comment-reply-link:active,
 a.bp-title-button:active,
+.button:active,
 #buddypress button.active,
 #buddypress a.button.active,
 #buddypress input[type="submit"].active,
@@ -7703,6 +7715,7 @@ a.bp-title-button:active,
 #buddypress div.generic-button a.active,
 #buddypress .comment-reply-link.active,
 a.bp-title-button.active,
+.button.active,
 .open .dropdown-toggle#buddypress button,
 .open .dropdown-toggle#buddypress a.button,
 .open .dropdown-toggle#buddypress input[type="submit"],
@@ -7711,7 +7724,8 @@ a.bp-title-button.active,
 .open .dropdown-toggle#buddypress ul.button-nav li a,
 .open .dropdown-toggle#buddypress div.generic-button a,
 .open .dropdown-toggle#buddypress .comment-reply-link,
-.open .dropdown-togglea.bp-title-button {
+.open .dropdown-togglea.bp-title-button,
+.open .dropdown-toggle.button {
   color: #ffffff;
   background-color: #00864d;
   border-color: #005832;
@@ -7726,6 +7740,7 @@ a.bp-title-button.active,
 #buddypress div.generic-button a:active,
 #buddypress .comment-reply-link:active,
 a.bp-title-button:active,
+.button:active,
 #buddypress button.active,
 #buddypress a.button.active,
 #buddypress input[type="submit"].active,
@@ -7735,6 +7750,7 @@ a.bp-title-button:active,
 #buddypress div.generic-button a.active,
 #buddypress .comment-reply-link.active,
 a.bp-title-button.active,
+.button.active,
 .open .dropdown-toggle#buddypress button,
 .open .dropdown-toggle#buddypress a.button,
 .open .dropdown-toggle#buddypress input[type="submit"],
@@ -7743,7 +7759,8 @@ a.bp-title-button.active,
 .open .dropdown-toggle#buddypress ul.button-nav li a,
 .open .dropdown-toggle#buddypress div.generic-button a,
 .open .dropdown-toggle#buddypress .comment-reply-link,
-.open .dropdown-togglea.bp-title-button {
+.open .dropdown-togglea.bp-title-button,
+.open .dropdown-toggle.button {
   background-image: none;
 }
 /* line 429, mixins.less */
@@ -7756,6 +7773,7 @@ a.bp-title-button.active,
 #buddypress div.generic-button a.disabled,
 #buddypress .comment-reply-link.disabled,
 a.bp-title-button.disabled,
+.button.disabled,
 #buddypress button[disabled],
 #buddypress a.button[disabled],
 #buddypress input[type="submit"][disabled],
@@ -7765,6 +7783,7 @@ a.bp-title-button.disabled,
 #buddypress div.generic-button a[disabled],
 #buddypress .comment-reply-link[disabled],
 a.bp-title-button[disabled],
+.button[disabled],
 fieldset[disabled] #buddypress button,
 fieldset[disabled] #buddypress a.button,
 fieldset[disabled] #buddypress input[type="submit"],
@@ -7774,6 +7793,7 @@ fieldset[disabled] #buddypress ul.button-nav li a,
 fieldset[disabled] #buddypress div.generic-button a,
 fieldset[disabled] #buddypress .comment-reply-link,
 fieldset[disabled] a.bp-title-button,
+fieldset[disabled] .button,
 #buddypress button.disabled:hover,
 #buddypress a.button.disabled:hover,
 #buddypress input[type="submit"].disabled:hover,
@@ -7783,6 +7803,7 @@ fieldset[disabled] a.bp-title-button,
 #buddypress div.generic-button a.disabled:hover,
 #buddypress .comment-reply-link.disabled:hover,
 a.bp-title-button.disabled:hover,
+.button.disabled:hover,
 #buddypress button[disabled]:hover,
 #buddypress a.button[disabled]:hover,
 #buddypress input[type="submit"][disabled]:hover,
@@ -7792,6 +7813,7 @@ a.bp-title-button.disabled:hover,
 #buddypress div.generic-button a[disabled]:hover,
 #buddypress .comment-reply-link[disabled]:hover,
 a.bp-title-button[disabled]:hover,
+.button[disabled]:hover,
 fieldset[disabled] #buddypress button:hover,
 fieldset[disabled] #buddypress a.button:hover,
 fieldset[disabled] #buddypress input[type="submit"]:hover,
@@ -7801,6 +7823,7 @@ fieldset[disabled] #buddypress ul.button-nav li a:hover,
 fieldset[disabled] #buddypress div.generic-button a:hover,
 fieldset[disabled] #buddypress .comment-reply-link:hover,
 fieldset[disabled] a.bp-title-button:hover,
+fieldset[disabled] .button:hover,
 #buddypress button.disabled:focus,
 #buddypress a.button.disabled:focus,
 #buddypress input[type="submit"].disabled:focus,
@@ -7810,6 +7833,7 @@ fieldset[disabled] a.bp-title-button:hover,
 #buddypress div.generic-button a.disabled:focus,
 #buddypress .comment-reply-link.disabled:focus,
 a.bp-title-button.disabled:focus,
+.button.disabled:focus,
 #buddypress button[disabled]:focus,
 #buddypress a.button[disabled]:focus,
 #buddypress input[type="submit"][disabled]:focus,
@@ -7819,6 +7843,7 @@ a.bp-title-button.disabled:focus,
 #buddypress div.generic-button a[disabled]:focus,
 #buddypress .comment-reply-link[disabled]:focus,
 a.bp-title-button[disabled]:focus,
+.button[disabled]:focus,
 fieldset[disabled] #buddypress button:focus,
 fieldset[disabled] #buddypress a.button:focus,
 fieldset[disabled] #buddypress input[type="submit"]:focus,
@@ -7828,6 +7853,7 @@ fieldset[disabled] #buddypress ul.button-nav li a:focus,
 fieldset[disabled] #buddypress div.generic-button a:focus,
 fieldset[disabled] #buddypress .comment-reply-link:focus,
 fieldset[disabled] a.bp-title-button:focus,
+fieldset[disabled] .button:focus,
 #buddypress button.disabled:active,
 #buddypress a.button.disabled:active,
 #buddypress input[type="submit"].disabled:active,
@@ -7837,6 +7863,7 @@ fieldset[disabled] a.bp-title-button:focus,
 #buddypress div.generic-button a.disabled:active,
 #buddypress .comment-reply-link.disabled:active,
 a.bp-title-button.disabled:active,
+.button.disabled:active,
 #buddypress button[disabled]:active,
 #buddypress a.button[disabled]:active,
 #buddypress input[type="submit"][disabled]:active,
@@ -7846,6 +7873,7 @@ a.bp-title-button.disabled:active,
 #buddypress div.generic-button a[disabled]:active,
 #buddypress .comment-reply-link[disabled]:active,
 a.bp-title-button[disabled]:active,
+.button[disabled]:active,
 fieldset[disabled] #buddypress button:active,
 fieldset[disabled] #buddypress a.button:active,
 fieldset[disabled] #buddypress input[type="submit"]:active,
@@ -7855,6 +7883,7 @@ fieldset[disabled] #buddypress ul.button-nav li a:active,
 fieldset[disabled] #buddypress div.generic-button a:active,
 fieldset[disabled] #buddypress .comment-reply-link:active,
 fieldset[disabled] a.bp-title-button:active,
+fieldset[disabled] .button:active,
 #buddypress button.disabled.active,
 #buddypress a.button.disabled.active,
 #buddypress input[type="submit"].disabled.active,
@@ -7864,6 +7893,7 @@ fieldset[disabled] a.bp-title-button:active,
 #buddypress div.generic-button a.disabled.active,
 #buddypress .comment-reply-link.disabled.active,
 a.bp-title-button.disabled.active,
+.button.disabled.active,
 #buddypress button[disabled].active,
 #buddypress a.button[disabled].active,
 #buddypress input[type="submit"][disabled].active,
@@ -7873,6 +7903,7 @@ a.bp-title-button.disabled.active,
 #buddypress div.generic-button a[disabled].active,
 #buddypress .comment-reply-link[disabled].active,
 a.bp-title-button[disabled].active,
+.button[disabled].active,
 fieldset[disabled] #buddypress button.active,
 fieldset[disabled] #buddypress a.button.active,
 fieldset[disabled] #buddypress input[type="submit"].active,
@@ -7881,30 +7912,31 @@ fieldset[disabled] #buddypress input[type="reset"].active,
 fieldset[disabled] #buddypress ul.button-nav li a.active,
 fieldset[disabled] #buddypress div.generic-button a.active,
 fieldset[disabled] #buddypress .comment-reply-link.active,
-fieldset[disabled] a.bp-title-button.active {
+fieldset[disabled] a.bp-title-button.active,
+fieldset[disabled] .button.active {
   background-color: #00af64;
   border-color: #009655;
 }
-/* line 67, wordpress.less */
+/* line 68, wordpress.less */
 .contentwrapper {
   min-height: 500px;
 }
-/* line 71, wordpress.less */
+/* line 72, wordpress.less */
 .logo {
   margin-top: -10px;
   margin-bottom: -10px;
 }
-/* line 78, wordpress.less */
+/* line 79, wordpress.less */
 .ospkwidgets {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
 }
-/* line 84, wordpress.less */
+/* line 85, wordpress.less */
 .ospkwidgets .textwidget {
   margin-top: 2px;
 }
-/* line 88, wordpress.less */
+/* line 89, wordpress.less */
 .ospkwidgets .circular {
   width: 7em;
   height: 7em;
@@ -7916,102 +7948,102 @@ fieldset[disabled] a.bp-title-button.active {
   float: left;
   cursor: default;
 }
-/* line 100, wordpress.less */
+/* line 101, wordpress.less */
 .ospkwidgets .widgetleft {
   margin: 1em 0em 0em 8em;
 }
-/* line 105, wordpress.less */
+/* line 106, wordpress.less */
 .ospkwidgets .widgetleft h2 {
   font-size: 1.5em;
   padding: 0px;
   margin: 0px;
 }
-/* line 111, wordpress.less */
+/* line 112, wordpress.less */
 .ospkwidgets .widgetleft p {
   padding: 0px;
   margin-top: 5px;
 }
-/* line 118, wordpress.less */
+/* line 119, wordpress.less */
 .ospkwidgets .widgetright {
   margin: 1em 0em 0em 8em;
 }
-/* line 124, wordpress.less */
+/* line 125, wordpress.less */
 .ospkwidgets .widgetright h2 {
   font-size: 1.5em;
   padding: 0px;
   margin: 0px;
 }
-/* line 130, wordpress.less */
+/* line 131, wordpress.less */
 .ospkwidgets .widgetright p {
   padding: 0px;
   margin-top: 5px;
 }
-/* line 139, wordpress.less */
+/* line 140, wordpress.less */
 div.circular:hover {
   background-color: #4586a6;
   transition-duration: 1s;
   color: white;
 }
-/* line 145, wordpress.less */
+/* line 146, wordpress.less */
 footer {
   background-color: #052944 !important;
 }
-/* line 153, wordpress.less */
+/* line 154, wordpress.less */
 nav.navbar ul#main-menu li a {
   color: #00af64;
   font-weight: 400;
   font-weight: bold;
 }
-/* line 158, wordpress.less */
+/* line 159, wordpress.less */
 nav.navbar ul#main-menu li :hover {
   color: #007c47;
 }
-/* line 161, wordpress.less */
+/* line 162, wordpress.less */
 nav.navbar ul#main-menu li :focus {
   color: #007c47;
 }
-/* line 167, wordpress.less */
+/* line 168, wordpress.less */
 nav.navbar ul#main-menu .current-menu-item a {
   color: #0b62a4;
 }
-/* line 176, wordpress.less */
+/* line 177, wordpress.less */
 .modality .modal-content {
   background-color: #fdf6af;
   color: #222;
 }
-/* line 181, wordpress.less */
+/* line 182, wordpress.less */
 .modality .modal-header {
   border-bottom: 0px rgba(0, 0, 0, 0);
 }
-/* line 185, wordpress.less */
+/* line 186, wordpress.less */
 .modality .modal-body {
   padding: 0px;
   background-color: blue;
 }
 /* STRAPPED THEME STARTS HERE */
-/* line 193, wordpress.less */
+/* line 194, wordpress.less */
 .btn {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 2px;
 }
-/* line 198, wordpress.less */
+/* line 199, wordpress.less */
 .navbar ul.nav li button {
   margin: 0.7em 0 0 1em;
 }
-/* line 201, wordpress.less */
+/* line 202, wordpress.less */
 .jumbotron {
   background: url(../img/noisy_net.png);
   color: #fff;
   padding: 1.5em 0 1em;
   text-align: center;
 }
-/* line 207, wordpress.less */
+/* line 208, wordpress.less */
 .jumbotron h1 {
   font-size: 2.2em;
   font-weight: bold;
   text-shadow: 1px 1px 3px #000;
 }
-/* line 212, wordpress.less */
+/* line 213, wordpress.less */
 .jumbotron h2 {
   font-size: 1.0em;
   font-style: italic;
@@ -8019,14 +8051,14 @@ nav.navbar ul#main-menu .current-menu-item a {
   line-height: 1.4em;
   margin-bottom: 1.4em;
 }
-/* line 220, wordpress.less */
+/* line 221, wordpress.less */
 .jumbotron .btn {
   box-shadow: 1px 1px 3px #000;
   padding: 0.2em 1.5em 0.2em;
   font-weight: bold;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 226, wordpress.less */
+/* line 227, wordpress.less */
 .jumbotron .btn-lg {
   box-shadow: 1px 1px 3px #000;
   font-size: 1.2em;
@@ -8034,13 +8066,13 @@ nav.navbar ul#main-menu .current-menu-item a {
   padding: 0.5em 2.5em 0.5em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 234, wordpress.less */
+/* line 235, wordpress.less */
 .sect-border {
   border-top: 1px dashed #d6d6d6;
   border-bottom: 1px dashed #f6f6f6;
   margin: 2em 8% 2.4em;
 }
-/* line 239, wordpress.less */
+/* line 240, wordpress.less */
 .subhead {
   color: #000;
   font-size: 3em;
@@ -8048,24 +8080,24 @@ nav.navbar ul#main-menu .current-menu-item a {
   text-align: center;
   margin: 0.3em 0;
 }
-/* line 247, wordpress.less */
+/* line 248, wordpress.less */
 #slideshow {
   margin: 0.5em 0 1.5em;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 252, wordpress.less */
+/* line 253, wordpress.less */
 #slideshow .carousel-inner img {
   background: #000;
   height: 300px;
   width: 100%;
 }
-/* line 258, wordpress.less */
+/* line 259, wordpress.less */
 .carousel-control {
   vertical-align: middle;
   padding-top: 250px;
 }
-/* line 262, wordpress.less */
+/* line 263, wordpress.less */
 footer {
   background: #111;
   color: #fff;
@@ -8073,30 +8105,30 @@ footer {
   padding: 1.5em 0 0.8em;
 }
 @media screen and (max-width: 768px) {
-  /* line 269, wordpress.less */
+  /* line 270, wordpress.less */
   .navbar ul.nav li {
     text-align: center;
   }
-  /* line 272, wordpress.less */
+  /* line 273, wordpress.less */
   .navbar ul.nav li button {
     margin: 1em 0;
   }
-  /* line 275, wordpress.less */
+  /* line 276, wordpress.less */
   .jumbotron {
     font-size: 14px;
     padding: 1em 0 0.8em;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 281, wordpress.less */
+  /* line 282, wordpress.less */
   body {
     font-size: 12px;
   }
-  /* line 284, wordpress.less */
+  /* line 285, wordpress.less */
   .jumbotron {
     font-size: 12px;
   }
-  /* line 287, wordpress.less */
+  /* line 288, wordpress.less */
   footer .pull-right {
     display: none;
   }
