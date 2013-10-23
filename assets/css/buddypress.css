@@ -5,6 +5,10 @@
 	overflow: visible;
 	margin: 20px;
 }
-form#whats-new-form {
-	margin: 20px;
+#buddypress div.item-list-tabs {
+    margin-top: 40px;
+}
+
+div#whats-new-textarea textarea {
+	height:50px;
 }
