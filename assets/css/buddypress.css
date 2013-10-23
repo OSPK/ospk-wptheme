@@ -1,3 +1,7 @@
 #buddypress .standard-form #basic-details-section input[type="password"] {
 	width:90%;
 }
+#buddypress #whats-new-options {
+	overflow: visible;
+	margin: 20px;
+}
